@@ -6,7 +6,9 @@ class Roman {
         { arabic: 9, roman: 'IX' },
         { arabic: 10, roman: 'X' },
         { arabic: 40, roman: 'XL' },
-        { arabic: 50, roman: 'L' }
+        { arabic: 50, roman: 'L' },
+	{ arabic: 90, roman: 'XC' },
+	{ arabic: 100, roman: 'C' }
     ];
 
     constructor() {

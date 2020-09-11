@@ -31,7 +31,13 @@ var testCases = [
     [47, 'XLVII'],
     [48, 'XLVIII'],
     [49, 'XLIX'],
-    [50, 'L']
+    [50, 'L'],
+    [89, 'LXXXIX'],
+    [90, 'XC'],
+    [91, 'XCI'],
+    [99, 'XCIX'],
+    [100, 'C'],
+    [101, 'CI']
 ];
 
 describe('.toRoman()', () => {
