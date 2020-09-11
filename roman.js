@@ -8,7 +8,11 @@ class Roman {
         { arabic: 40, roman: 'XL' },
         { arabic: 50, roman: 'L' },
 	{ arabic: 90, roman: 'XC' },
-	{ arabic: 100, roman: 'C' }
+	{ arabic: 100, roman: 'C' },
+	{ arabic: 400, roman: 'CD' },
+	{ arabic: 500, roman: 'D' },
+	{ arabic: 900, roman: 'CM' },
+	{ arabic: 1000, roman: 'M' }
     ];
 
     constructor() {
