@@ -49,7 +49,8 @@ var testCases = [
     [900, 'CM'],
     [999, 'CMXCIX'],
     [1000, 'M'],
-    [1001, 'MI']
+    [1001, 'MI'],
+    [1968, 'MCMLXVIII']
 ];
 
 describe('.toRoman()', () => {
