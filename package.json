@@ -8,6 +8,7 @@
     "yarn": "^1.22.5"
   },
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest",
+    "coverage": "jest --coverage"
   }
 }
