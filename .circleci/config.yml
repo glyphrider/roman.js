@@ -1,6 +1,6 @@
 version: 2.1
 orbs:
-  node: circleci/node@4.4.0
+  node: circleci/node@4.5.1
 workflows:
   matrix-tests:
     jobs:
@@ -9,6 +9,6 @@ workflows:
           matrix:
             parameters:
               version:
-                - 12.22.1
-                - 14.17.0
-                - 16.2.0
+                - 12.22.2
+                - 14.17.2
+                - 16.4.1
