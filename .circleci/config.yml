@@ -10,5 +10,5 @@ workflows:
             parameters:
               version:
                 - 12.22.3
-                - 14.17.2
+                - 14.17.3
                 - 16.5.0
