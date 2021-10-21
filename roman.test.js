@@ -54,13 +54,13 @@ var testCases = [
 ];
 
 describe('.toRoman()', () => {
-    test.each(testCases)('should convert %i to %s', (a,r) => {
+    test.each(testCases)('should convert %i to %s', (a, r) => {
         expect(roman.toRoman(a)).toBe(r);
     })
 });
 
 describe('.toArabic()', () => {
-    test.each(testCases.map((arr) => { return [arr[1], arr[0]]; }))('should convert %s to %i', (r,a) => {
+    test.each(testCases.map((arr) => { return [arr[1], arr[0]]; }))('should convert %s to %i', (r, a) => {
         expect(roman.toArabic(r)).toBe(a);
     })
 });
