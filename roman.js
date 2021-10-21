@@ -7,12 +7,12 @@ class Roman {
         { arabic: 10, roman: 'X' },
         { arabic: 40, roman: 'XL' },
         { arabic: 50, roman: 'L' },
-	{ arabic: 90, roman: 'XC' },
-	{ arabic: 100, roman: 'C' },
-	{ arabic: 400, roman: 'CD' },
-	{ arabic: 500, roman: 'D' },
-	{ arabic: 900, roman: 'CM' },
-	{ arabic: 1000, roman: 'M' }
+        { arabic: 90, roman: 'XC' },
+        { arabic: 100, roman: 'C' },
+        { arabic: 400, roman: 'CD' },
+        { arabic: 500, roman: 'D' },
+        { arabic: 900, roman: 'CM' },
+        { arabic: 1000, roman: 'M' }
     ];
 
     constructor() {
@@ -22,7 +22,7 @@ class Roman {
     toRoman(num) {
         var result = '';
         this.data.forEach((elem) => {
-            while(num >= elem.arabic) {
+            while (num >= elem.arabic) {
                 result += elem.roman;
                 num -= elem.arabic;
             }
@@ -33,7 +33,7 @@ class Roman {
     toArabic(str) {
         var result = 0;
         this.data.forEach((elem) => {
-            while(str.startsWith(elem.roman)) {
+            while (str.startsWith(elem.roman)) {
                 result += elem.arabic;
                 str = str.substring(elem.roman.length);
             }
